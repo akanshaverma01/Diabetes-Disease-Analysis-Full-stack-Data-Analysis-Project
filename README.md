@@ -1,9 +1,17 @@
 # Diabetes Disease Analysis — End-to-End Data Project
-A full-stack data analysis project examining diabetes patterns using two datasets: the PIMA Indians Diabetes Dataset (clinical, 768 patients) and the WHO Global Diabetes Prevalence Dataset (198 countries, 1980–2014). The pipeline covers data cleaning, feature engineering, exploratory analysis in Python, SQL querying in PostgreSQL, and a Power BI dashboard.
+
+A full-stack data analysis project examining diabetes patterns using two datasets: the **PIMA Indians Diabetes Dataset** (clinical, 768 patients) and the **WHO Global Diabetes Prevalence Dataset** (198 countries, 1980–2014). The pipeline covers data cleaning, feature engineering, exploratory analysis in Python, SQL querying in PostgreSQL, and a Power BI dashboard.
+
+---
+
 
 # Datasets
 1. PIMA Indians Diabetes Dataset (Kaggle)
 2.  WHO Global Diabetes Prevalence Dataset
+
+---
+
+
 
 ## Tech Stack
 
@@ -15,6 +23,9 @@ A full-stack data analysis project examining diabetes patterns using two dataset
 | SQL Analysis | PostgreSQL (raw SQL queries) |
 | Visualization | Power BI |
 
+
+---
+
 ## Pipeline Overview
 
  Step 1 — Data Cleaning & Feature Engineering (Jupyter)
@@ -23,26 +34,35 @@ A full-stack data analysis project examining diabetes patterns using two dataset
  Step 4 — SQL Analysis
  Step 5 — Power BI Dashboard
 
+ 
+---
+
  ## Project Structure
  ```
 ├── Data/
-│   ├── raw_kaggle_diabetes.csv        # PIMA Indians raw dataset
-│   ├── WHO_dataset.csv                # WHO Global Prevalence raw dataset
-│   ├── cleaned_diabetes.csv           # Cleaned PIMA dataset (output)
-│   └── clean_who_dataset.csv          # Cleaned WHO dataset (output)
+│   ├── raw_kaggle_diabetes.csv      
+│   ├── WHO_dataset.csv               
+│   ├── cleaned_diabetes.csv          
+│   └── clean_who_dataset.csv         
 │
 ├── Notebooks/
-│   └── Diabetes_disease_Analysis.ipynb   # Full EDA + preprocessing + DB load
+│   └── Diabetes_disease_Analysis.ipynb
 │
 ├── sql file/
-│   ├── Sql_queries_analysis.sql          # Queries on PIMA Indians dataset
-│   └── Sql_analysis_WHO_global_dataset.sql  # Queries on WHO global dataset
-│
+│   ├── Sql_queries_analysis.sql         
+│   └── Sql_analysis_WHO_global_dataset.sql
+
 ├── power bi dashboard & file/
 │   └── My_final_dashboard.pdf
-│   └── diabetes diseases analysis.pbix          # Power BI dashboard export
+│   └── diabetes diseases analysis.pbix          
 │
 └── README.md
+```
+
+
+---
+
+
 
 
 ## Key Findings
@@ -52,3 +72,5 @@ A full-stack data analysis project examining diabetes patterns using two dataset
 - Diabetes risk increases with age: the 60+ group has the highest diabetic proportion relative to group size.
 - Globally, **Eastern Mediterranean** has the highest average prevalence at 9.2%; Africa is lowest at 4.9%.
 - India showed the fastest prevalence growth among tracked countries between 1980 and 2014.
+  
+---
